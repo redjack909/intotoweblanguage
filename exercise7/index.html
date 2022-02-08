@@ -1,0 +1,18 @@
+<!--this line creates a input called input name that accepts text and displays enteryour name-->
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!--this line generates a button called my-button with click me on it-->
+<button id="my-button">Click Me</button>
+<!--bellow starts the java script that creaets two varables that take in the inputes from mybutton and name inputs when the event listener "clicks" as a result
+of the user "clicking the button" that runs the if statement checking if the name input exists. if the name input exists then the alert message is displayed with
+the name input-->
+<script>
+
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>

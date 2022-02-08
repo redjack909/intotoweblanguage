@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+  }
+
+  #main-title {
+      color: black;
+            text-align: center;
+  }
+  
+  content {
+    color: rgb(51, 109, 24);
+    font: 1em Cursive;
+    margin-bottom: 12px;
+  }
